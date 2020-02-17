@@ -1,2 +1,2 @@
-# sudokuSolver
-Solves sudokus
+# SudokuSolver
+Solves sudokus!
