@@ -15,12 +15,6 @@ public class Main {
 		//System.out.println(board.validBoard());
 		board.squareOff();
 		board.generateAllPermutations();
-		//System.out.println(board.validBoard(true));
-		//System.out.println(board);
-		//Square x = board.getSquare(0, 0);
-		//x.generatePermutations();
-		//System.out.println(x.numberOfPermutations);
-		//System.out.println(x.permutations);
 		Board curBoard = new Board();
 		curBoard.squareOff();
 		search(curBoard,0,0);
