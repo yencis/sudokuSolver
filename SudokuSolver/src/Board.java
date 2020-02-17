@@ -8,16 +8,6 @@ public class Board {
 	
 	@SuppressWarnings("unchecked")
 	public Square getSquare(int r, int c) {
-		/*Square o = board[r][c];
-		Square s = new Square();
-		for (int r2 = 0;r2<3;r2++) {
-			for (int c2 = 0; c2<3; c2++) {
-				int x = o.get(r2, c2);
-				s.put(r, c, x);
-			}
-		}
-		s.permutations = (ArrayList<Square>) o.permutations.clone();
-		return s;*/
 		return board[r][c];
 	}
 	
@@ -154,7 +144,7 @@ public class Board {
 		}
 		return true;
 	}
-	
+	//lol never used
 	private boolean currentlyValid() {
 		if (!squared) {
 			squareOff();
